@@ -1,0 +1,53 @@
+.draw_tools_common{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .btn_box{
+    display: flex;
+    align-items: center;
+    margin-top:8px;
+    width: 100%;
+    .btn{
+      padding: 9px;
+      width: 24px;
+      height: 24px;
+      border: none;
+      min-width: 24px !important;
+      &:hover{
+        background-color: #1F7FFF
+      }
+    }
+    .btn_wrap{
+      border-right: 1px solid rgba(255,255,255,0.12);
+      padding-right: 10px;
+      margin-right: 12px;
+      width:10px;
+      height:20px
+    }
+    .polygon_btn{
+      margin-left:2px;
+      background:url('./img/polygon.svg') no-repeat 100% 100%;
+    }
+    .line_btn{
+      background:url('./img/line.png') no-repeat 100% 100%;
+    }
+    .crossline_btn{
+      background:url('./img/ic_draw_bothway.svg') no-repeat 100% 100%;
+    }
+    .crossAline_btn{
+      background:url('./img/ic_draw_left.svg') no-repeat 100% 100%;
+    }
+    .crossBline_btn{
+      background:url('./img/ic_draw_right.svg') no-repeat 100% 100%;
+    }
+    .rect_btn{
+      background:url('./img/rect.svg') no-repeat 100% 100%;
+    }
+    .clear_btn{
+      background:url('./img/clear.svg') no-repeat 100% 100%;
+    }
+    .active_btn{
+      background-color: #1F7FFF
+    }
+  }
+}

@@ -1,0 +1,5 @@
+VUE_APP_REQUEST_COMMON='https://pbchain.hik-cloud.com'
+VUE_APP_REQUEST_DEVICE_HOST='https://pbnissan.hik-cloud.com'
+VUE_APP_REQUEST_AUTH_HOST='https://pbnissan.hik-cloud.com'
+VUE_APP_REQUEST_YUNLAI_HOST='https://yl.hilaicloud.com'
+NODE_ENV='production'

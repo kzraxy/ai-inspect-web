@@ -1,0 +1,264 @@
+.model_pool{
+  .empty_div{
+    width: 100%;
+    height: calc(100vh - 340px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .empty{
+      width: 112px;
+      height: 112px;
+      background: url(../../assets/img/nodata.svg) no-repeat;
+      background-size: contain;
+    }
+    .empty_text{
+      color: rgba(0,0,0,0.70);
+      margin-top: 30px;
+    }
+  }
+  .content_wrap{
+    width: 1200px;
+    margin: 0 auto;
+    .inner{
+      width: 1230px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .card_item{
+      width: 380px;
+      height: 380px;
+      background-color: #fff;
+      border-radius: 4px;
+      margin-bottom: 30px;
+      margin-right: 30px;
+      position: relative;
+      .card_bottom_wrap{
+        width: 100%;;
+        padding-top: 24px;
+        overflow: hidden;
+        .c_b_content{
+          width: 100%;
+          padding: 0 24px;
+          overflow:hidden;
+          text-overflow:ellipsis;
+          display:-webkit-box;
+          -webkit-box-orient:vertical;
+          -webkit-line-clamp:2;
+          color: rgba(0,0,0,0.70);;
+        }
+        .main_label_wrap{
+          height: 28px;
+          margin:14px 20px 12px 24px;
+          display: flex;
+          align-items: center;
+          overflow: hidden;
+          position: relative;
+          .right_cover{
+            position: absolute;
+            width: 20px;
+            height: 100%;
+            right: 0;
+            top: 0;
+            background-image: linear-gradient(to right, transparent, #fff);
+          }
+          .main_lable_tag{
+            flex-shrink: 0;
+            height: 28px;
+            border: 1px solid #C5CACF;
+            border-radius: 2px;
+            font-size: 12px;
+            color: rgba(0,0,0,0.50);
+            padding: 5px 8px;
+            margin-left: 8px;
+          }
+          .main_lable_tag:nth-of-type(1){
+            margin-left: 0;
+          }
+        }
+        .title{
+          font-family: MicrosoftYaHeiUISemibold;
+          font-size: 16px;
+          color: rgba(0,0,0,0.90);
+          height: 24px;
+          line-height: 24px;
+          font-weight: 600;
+          width: 100%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          padding: 0 24px;
+        }
+      }
+      .card_head_wrap{
+        width: 100%;
+        height: 214px;
+        position: relative;
+        background-size: cover;
+        overflow: hidden;
+        .c_h_cover{
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: rgba(0,0,0,.5);
+          border-radius: 4px 4px 0 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .c_h_btn_wrap{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .btn{
+              width: 80px;
+              height: 48px;
+              line-height: 48px;
+              text-align: center;
+              cursor: pointer;
+              border-radius: 4px;
+              font-family: MicrosoftYaHeiUISemibold;
+              font-size: 16px;
+              font-weight: 600;
+            }
+            .btn1{
+              background: #eee;
+              color: #000000;
+            }
+            .btn2{
+              background: #2080f7;
+              margin-left:20px;
+              color: #FFFFFF;
+            }
+          }
+        }
+        .right_top_icon{
+          width: 90px;
+          height: 90px;
+          position: absolute;
+          background: url(../../assets/img/qidai.png) no-repeat;
+          background-size: contain;
+          right: 0;
+          top: 0;
+        }
+        .head_bottom_wrap{
+          height: 28px;
+          position: absolute;
+          bottom:10px;
+          display: flex;
+          align-items: center;
+          padding-left: 10px;
+          overflow: hidden;
+          .bot_tag{
+            flex-shrink: 0;
+            height: 28px;
+            padding: 5px 8px;
+            opacity: 0.6;
+            background: #000000;
+            border-radius: 14px;
+            font-size: 12px;
+            color: #FFFFFF;
+            margin-right: 8px;
+          }
+        }
+        .c_tag_wrap{
+          width: 100%;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          padding: 0 12px;
+          .tag{
+            // width: 50px;
+            height: 40px;
+            margin-right: 8px;
+            display: flex;
+            justify-content: center;
+            color:#fff;
+            flex-wrap: wrap;
+            font-size: 14px;
+          }
+          .normalTag{
+            padding: 0 6px;
+            width: 100%;
+            height: 100%;
+            background: url(../../assets/img/jiance.png) no-repeat;
+            background-size: 100% 100%;
+            padding-top: 8px;
+            text-align: center;
+          }
+          .muchNorTag{
+            padding: 0 6px;
+            width: 100%;
+            height: 100%;
+            font-size: 12px;
+            padding-top: 1px;
+            background: url(../../assets/img/jiance.png) no-repeat;
+            background-size: contain;
+            text-align: center;
+          }
+          .selfTag{
+            background: url(../../assets/img/zizhu.png) no-repeat;
+            background-size: contain;
+          }
+        }
+      }
+    }
+  }
+  .search_wrap{
+    width: 1200px;
+    margin: 24px auto;
+    .line{
+      display: flex;
+      align-items: center;
+      height: 32px;
+      margin-bottom: 12px;
+      &>div{
+        flex-shrink: 0
+      }
+      .title{
+        font-family: MicrosoftYaHeiUISemibold;
+        font-size: 14px;
+        color: rgba(0,0,0,0.70);
+        font-weight: 600;
+      }
+    }
+  }
+  .head_wrap{
+    .title{
+      font-family: MicrosoftYaHeiUI-Bold;
+      font-size: 22px;
+      color: #FFFFFF;
+      text-align: center;
+      height: 32px;
+      line-height: 32px;
+      font-weight: 700;
+    }
+    .serch_wrap{
+      width: 600px;
+      margin: 0 auto;
+    }
+  }
+}
+::v-deep .search-input{
+  border-radius: 20px;
+  .h-icon-close_f{
+    top: 8px;
+    color: rgba(0,0,0,0.4);
+  }
+  .el-input__prefix {
+    top: 8px;
+    left: 8px;
+  }
+  .el-input{
+   .el-input__inner{
+      background-color: #fff;
+      height: 40px;
+      padding-left: 40px!important;
+      border-radius: 20px;
+      box-shadow: 0 0 12px 0 rgba(0,0,0,0.06);
+      border: 1px solid transparent;
+      &:focus, &:active {
+        border: 1px solid #388EFF;
+      }
+    }
+  }
+}

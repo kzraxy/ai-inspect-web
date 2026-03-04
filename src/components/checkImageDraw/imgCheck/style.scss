@@ -1,0 +1,58 @@
+#HKImgCheckUtil{
+  flex:1;
+  .threeImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 88px;
+    align-items: center;
+    flex: 1;
+    li{
+      position: relative;
+    }
+    .iconArrow{
+      width: 20px;
+      display: flex;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 20px;
+      color:rgba(0,0,0,0.70);
+    }
+    .close-btn{
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index:1;
+      color:#fff;
+      font-size: 16px;
+      background: rgba(0,0,0,0.40);
+    } 
+    .Containt{
+      z-index: 0;
+      flex: 1;
+      overflow: hidden;
+      height: 72px;
+      position: relative;
+      ul{
+        transition: transform 0.5s ease-in-out;
+        position: absolute;
+        margin-left: 0;
+        cursor: pointer;
+        height: 75px;
+        display: flex;
+        li{
+          width: 72px;
+          height: 72px;
+          border: 2px solid #00000000;
+          margin-right: 6px;
+          img{
+            height: 72px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

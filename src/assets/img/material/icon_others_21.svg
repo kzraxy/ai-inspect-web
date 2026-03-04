@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bitmap_缺省</title>
+    <defs>
+        <linearGradient x1="50%" y1="-33.8806496%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#D6DBE2" offset="0%"></stop>
+            <stop stop-color="#ACB5C1" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="-9.32587341e-15" y="-9.32587341e-15" width="21" height="21" rx="2"></rect>
+    </defs>
+    <g id="素材管理-胡金成" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bitmap_缺省">
+            <g>
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="蒙版" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            </g>
+            <g id="文件" transform="translate(1.000000, 2.000000)" fill-rule="nonzero">
+                <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="19" height="17"></rect>
+                <path d="M15,14 L4,14 C3.26376802,14 3,13.7707304 3,13 L3,4.72624931 C3,4.32537068 3.37210131,4 3.83055524,4 L6.77910484,4 C6.94081976,4 7.09468443,4.05766063 7.20458777,4.16062603 L9.08236483,5.89181768 C9.19383822,5.99341021 9.3477029,6.05244371 9.50784776,6.05244371 L15.1694398,6.05244371 C15.6278937,6.05244371 16,6.37781439 16,6.77869303 L16,13.2751236 C16.0015651,13.6746293 15.6294638,14 15,14 Z" id="路径" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

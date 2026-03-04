@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>common_To be issued_nor</title>
+    <g id="算法模型列表" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="弹窗" transform="translate(-2470.000000, -458.000000)">
+            <g id="自动更新详情" transform="translate(1504.000000, 144.000000)">
+                <g id="ic_勾选" transform="translate(966.000000, 314.000000)">
+                    <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                    <g id="编组-5">
+                        <path d="M8,0 C12.418278,0 16,3.581722 16,8 C16,12.418278 12.418278,16 8,16 C3.581722,16 0,12.418278 0,8 C0,3.581722 3.581722,0 8,0 Z M8,1.5 C4.41014913,1.5 1.5,4.41014913 1.5,8 C1.5,11.5898509 4.41014913,14.5 8,14.5 C11.5898509,14.5 14.5,11.5898509 14.5,8 C14.5,4.41014913 11.5898509,1.5 8,1.5 Z M8,5.00318504 L8,9.06398365" id="形状" fill="#FF952C" fill-rule="nonzero"></path>
+                        <polyline id="路径-4" stroke="#FF952C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" points="7.56288957 5.21829379 7.56288957 9.06082817 10.4200546 9.06082817"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

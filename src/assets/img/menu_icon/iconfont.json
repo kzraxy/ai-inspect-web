@@ -1,0 +1,86 @@
+{
+  "id": "1889952",
+  "name": "AI智能点检",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "智能分析项目",
+  "glyphs": [
+    {
+      "icon_id": "35446117",
+      "name": "menu1",
+      "font_class": "menu1",
+      "unicode": "e7ee",
+      "unicode_decimal": 59374
+    },
+    {
+      "icon_id": "35446118",
+      "name": "menu2",
+      "font_class": "menu2",
+      "unicode": "e7ef",
+      "unicode_decimal": 59375
+    },
+    {
+      "icon_id": "35446119",
+      "name": "menu3",
+      "font_class": "menu3",
+      "unicode": "e7f0",
+      "unicode_decimal": 59376
+    },
+    {
+      "icon_id": "35446120",
+      "name": "menu4",
+      "font_class": "menu4",
+      "unicode": "e7f1",
+      "unicode_decimal": 59377
+    },
+    {
+      "icon_id": "35446121",
+      "name": "menu5",
+      "font_class": "menu5",
+      "unicode": "e7f2",
+      "unicode_decimal": 59378
+    },
+    {
+      "icon_id": "35445929",
+      "name": "icon_erweima_24",
+      "font_class": "icon_erweima_24",
+      "unicode": "e7ed",
+      "unicode_decimal": 59373
+    },
+    {
+      "icon_id": "29749041",
+      "name": "icon_remind_16",
+      "font_class": "icon_remind_16",
+      "unicode": "e730",
+      "unicode_decimal": 59184
+    },
+    {
+      "icon_id": "29646476",
+      "name": "nav_dituku_16",
+      "font_class": "nav_dituku_16",
+      "unicode": "e728",
+      "unicode_decimal": 59176
+    },
+    {
+      "icon_id": "15384778",
+      "name": "leftbar_ico_16_sfmx",
+      "font_class": "leftbar_ico_16_sfmx",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "15384779",
+      "name": "leftbar_ico_16_znfx",
+      "font_class": "leftbar_ico_16_znfx",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "15384780",
+      "name": "leftbar_ico_16_jggl",
+      "font_class": "leftbar_ico_16_jggl",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    }
+  ]
+}

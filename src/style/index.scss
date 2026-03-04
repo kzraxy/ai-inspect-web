@@ -1,0 +1,23 @@
+// ~packageName/ -> node_modules/packageName/
+
+$--color-brand: #1E7FFF;
+$--font-path: '~hui/packages/theme/fonts';
+
+@import '~hui/packages/theme/index.scss';
+
+@import '~@hui-pro/page/theme/index.scss';
+@import '~@hui-pro/layout/theme/index.scss';
+@import '~@hui-pro/empty/theme/index.scss';
+@import '~@hui-pro/select-tree-option/theme/index.scss';
+@import '~@hui-pro/img-view/theme/index.scss';
+@import '~@hui-pro/album/theme/index.scss';
+@import '~@hui-pro/img-preview/theme/index.scss';
+@import '~@hui-pro/table-transfer/theme/index.scss';
+@import '@hui-pro/add-form-item/theme/index.scss';
+@import '@hui-pro/mutli-selector/theme/index.scss';
+@import '@hui-pro/highlight/theme/index.scss';
+@import '@hui-pro/ellipsis/theme/index.scss';
+@import '@hui-pro/drawer/theme/index.scss';
+@import '@hui-pro/sync-tree/theme/index.scss';
+@import '@hui-pro/sync-tree-select/theme/index.scss';
+@import '@hui-pro/empty/theme/index.scss';

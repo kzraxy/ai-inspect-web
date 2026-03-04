@@ -1,0 +1,231 @@
+.draw_rules_area{
+  height: 100%;
+  .page-head {
+    border-bottom:1px solid #D8D8D8;
+    padding: 10px 10px;
+    font-size: 16px;
+    .btn-back {
+      height: 14px;
+      line-height: 14px;
+      display: inline-block;
+      font-size: 14px;
+      color: #9E9E9E;
+      cursor: pointer;
+      i {
+        padding-right: 6px;
+        position: relative;
+        top: 2px;
+      }
+    }
+  }
+  .content_area{
+    display: flex;
+    height: calc(100vh - 140px);
+    min-height: 500px;
+  }
+  .content_left{
+    height: 100%;
+    width: 270px;
+    padding: 0 10px;
+    border-right: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+    .channel-filter-text{
+      text-align: left;
+      height: 40px;
+      line-height: 46px;
+      font-family: MicrosoftYaHeiUI;
+      font-size: 16px;
+    }
+    .draw_self_left{
+      border: 1px solid;
+    }
+    .rules_list{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      height: 40px;
+      padding-left: 8px;
+      cursor: pointer;
+      border-bottom: 1px solid rgba(0,0,0,0.12);
+      &:hover{
+        background-color: rgba(0,0,0,0.04);
+      }
+      .rules_list_name{
+        width: 230px;
+        text-align: left;
+      }
+    }
+    .channel_list{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      // height: 64px;
+      height: 78px;
+      padding-left: 14px;
+      padding-right: 10px;
+      cursor: pointer;
+      &:hover{
+        // background-color: rgba(0,0,0,0.04);
+        background-color: #1F7FFF;
+        .isEdited{
+        background-color: #FFFFFF;
+      }
+      .channel_list_name,.un_depoly,.fail_depoly,.channel_list_group{
+        color: #FFFFFF;
+      }
+      }
+      .channel_list_channel{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        margin-bottom: 4px;
+        .isEditDiv{
+          display: inline-block;
+          width: 6px;
+          height: 6px;
+          border-radius: 6px;
+        }
+      }
+      .channel_list_group{
+        width: 230px;
+        text-align: left;
+        padding-left: 18px;
+        font-size: 12px;
+        color: rgba(0,0,0,0.40);
+      }
+      .channel_list_name{
+        width: 180px;
+        text-align: left;
+        margin-left: 10px;
+        color: rgba(0,0,0,0.70);
+        max-height: 20px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+      .channel_list_tag{
+        width:60px;
+        height: 20px;
+        line-height: 20px;
+        text-align: right;
+      }
+      .un_depoly{
+        color: #FF952C
+      }
+      .fail_depoly{
+        color: #FA3239
+      }
+    }
+    .isEdited{
+      background-color: #1F7FFF
+    }
+    .active_rules{
+      background: rgba(0,0,0,0.04);
+    }
+    .active_channel{
+      // background: rgba(0,0,0,0.04);
+      background: #1F7FFF;
+      .isEdited{
+        background-color: #FFFFFF;
+      }
+      .channel_list_name,.un_depoly,.fail_depoly,.channel_list_group{
+        color: #FFFFFF;
+      }
+    }
+  }
+  .content_right{
+    width: calc(100% - 290px);
+    height: 100%;
+    .content_right_head{
+      height: 40px;
+      line-height: 46px;
+      text-align: left;
+      padding-left: 18px;
+      color: rgba(0,0,0,0.90);
+      font-size: 16px;
+      font-family: MicrosoftYaHeiUI;
+    }
+    .draw_wrap{
+      width: 100%;
+      height: calc(100% - 40px);
+      background: rgba(0, 0, 0, 0.75);
+      border-top: 1px solid #D8D8D8
+    }
+    .draw_alone_btns{
+      height: 50px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .draw_alone_btns_wrap{
+        display: flex;
+        justify-content:flex-end;
+        height: 100%;
+        align-items: center;
+        box-sizing:border-box;
+      }
+    }
+    .draw_area{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+      height: calc(100% - 50px);
+      .content_right_draw{
+        width: 100%;
+        height: 100%;
+        .draw_tools_wrap{
+          width:100%;
+          height: 100%;
+          .draw_tools{
+            height: 100%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center
+          }
+          .draw_wrap_empty{
+            width: 100%;
+            height: 100%;
+            background: url(../../../assets/img/no_data_draw.png) no-repeat center;
+          }
+        }
+      }
+    }
+  }
+  .content_foot{
+    height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    border-top: 1px solid #D8D8D8;
+  }
+  .draw_tree_wrap{
+    // border: 1px solid;
+    // text-align: left;
+    // height: 500px
+  }
+  .empty-data-img{
+    text-align: center;
+    width: 100%;
+    height: 95%;
+    // background-position:50% 44%;
+    font-size: 16px;
+    color: #B2B2B2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .empty_bg{
+      width: 100%;
+      height: 50%;
+      background: url(../../../assets/img/no_data_2d.png) no-repeat center bottom;
+    }
+    .empty_text{
+      width: 100%;
+      height: 50%;
+    }
+  }
+}

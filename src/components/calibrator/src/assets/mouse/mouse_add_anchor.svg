@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mouse/增加锚点备份@2x</title>
+    <defs>
+        <path d="M5.1613899,2.54911151 C5.2332234,2.59178487 5.2932178,2.65177927 5.33589116,2.72361277 L9.67177965,10.0223584 C9.82049385,10.272694 9.85271105,10.5754154 9.76001518,10.8514431 L8.059,15.9179028 L8.21195569,16.835601 C8.30275075,17.3803713 7.93473108,17.8955989 7.38996076,17.9863939 C7.33562933,17.9954492 7.28064263,18 7.22556177,18 L2.58648261,18 C2.03419786,18 1.58648261,17.5522847 1.58648261,17 C1.58648261,16.9449191 1.59103345,16.8899324 1.60008869,16.835601 L1.753,15.9169028 L0.0520292019,10.8514431 C-0.0406666684,10.5754154 -0.00844946908,10.272694 0.140264736,10.0223584 L4.47615322,2.72361277 C4.61718891,2.48620269 4.92397982,2.40807582 5.1613899,2.54911151 Z" id="path-1"></path>
+        <filter x="-76.4%" y="-35.4%" width="252.9%" height="196.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M15,0 L15,3 L17.9973945,3 L17.9973945,5 L15,5 L15,8 L13,8 L13,5 L10,5 L10,3 L13,3 L13,0 L15,0 Z" id="path-3"></path>
+        <filter x="-93.8%" y="-68.8%" width="287.6%" height="287.5%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Mouse/增加锚点备份" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组" transform="translate(11.998697, 13.000000) scale(1, -1) translate(-11.998697, -13.000000) translate(3.000000, 4.000000)">
+            <g id="形状结合" transform="translate(4.906022, 10.239451) scale(1, -1) translate(-4.906022, -10.239451) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use stroke="#FFFFFF" stroke-width="1" fill-opacity="0.9" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <polygon id="路径" fill="#FFFFFF" fill-rule="nonzero" points="7.92386745 4.09634411 7.93959857 5.09622037 1.73180207 4.99080101 1.71607096 3.99092475"></polygon>
+            <path d="M4.21258984,8.40249454 C4.60311414,8.01197025 5.23627911,8.01197025 5.62680341,8.40249454 C6.0173277,8.79301884 6.0173277,9.42618381 5.62680341,9.81670811 C5.5550404,9.88847112 5.4750839,9.94704691 5.38994519,9.99243548 L5.36984552,17.5802865 L4.37892221,17.5802865 L4.39795686,9.96297522 C4.33199102,9.92257018 4.26969621,9.87381448 4.21258984,9.81670811 C3.82206555,9.42618381 3.82206555,8.79301884 4.21258984,8.40249454 Z" id="路径-16" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <g id="形状结合">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use stroke="#FFFFFF" stroke-width="1" fill-opacity="0.9" fill="#000000" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>

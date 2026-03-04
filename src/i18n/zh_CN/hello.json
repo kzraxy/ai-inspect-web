@@ -1,0 +1,32 @@
+{
+  "tableTransfer": {
+    "leftTableTitle": "待添加",
+    "tableInputPh": "搜索...",
+    "leftTableLoadingText": "正在加载数据...",
+    "leftTableEmptyText": "暂无数据",
+    "rightTableTitle": "已添加",
+    "rightTableEmptyText": "暂无数据",
+    "largeDataLeftTip": "当前查看数据量较大，流畅度会有所下降，建议使用搜索。",
+  },
+  "h": {
+    "tableTransfer": {
+      "leftTableTitle": "待添加",
+      "tableInputPh": "搜索...",
+      "leftTableLoadingText": "正在加载数据...",
+      "leftTableEmptyText": "暂无数据",
+      "rightTableTitle": "已添加",
+      "rightTableEmptyText": "暂无数据",
+      "largeDataLeftTip": "当前查看数据量较大，流畅度会有所下降，建议使用搜索。",
+      "largeDataRightTip":
+        "当前已添加数据量较大，流畅度会有所下降，建议保存后再次添加。",
+      "largeDataTip":
+        "添加超过{0}条数据，可能会因页面数据量过大而影响使用。确定仍然添加？",
+      "tipTitle": "提示",
+      "sure": "确定",
+      "cancel": "取消",
+      "loadMore": "更多",
+      "right": "右移",
+      "left": "左移"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+export const REFRESH_BY_HEADER = 'pleaseRefreshByHeader'
+export const REQUEST_SUCCESS = '0'
+export const PAGE_SIZE = [10, 20, 50, 100]
+export const CLOUD_CHANNEL = 241 // 云端通道接入
+export const ALGORITHM_DEPLOY = 242 // 云端算法授权
+export const DEVICE_CHANNEL = 243 // 边缘通道接入
+export const QPS_DEPLOY = 240 // 原始码是31057，QPS
+export const NO_AUTH_CODE = [70010093, 70010094, 70010095] // 授权不足的code码
+export const SERVICE_OFFLINE_CODE = [70010015] // 算法已下线的code码
